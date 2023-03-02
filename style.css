@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+
+    height: 3000px;
+}
+.container{
+    /* border: 3px solid red; */
+    background: var(--gradient),url("./img/wp6591848-gaming-purple-aesthetic-wallpapers.jpg");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+    width: 100%;
+    height: 550px;
+    /* display: flex; */
+}
+.main{
+    display: flex;
+    
+}
+.main-content{
+    padding: 15% 10%;
+    width: 100%;
+}
+.main-content h2{
+    color: wheat;
+    font-size: 50px;
+    font-weight: 600;
+}
+.main-content p{
+    color: wheat;
+    padding-bottom :10px;
+    font-size: 20px;
+}
+.main-content span{
+    color: goldenrod;
+}
+.main-content .btn{
+    padding: 15px 28px;
+    background-color: goldenrod;
+    /* border: none; */
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+    /* text-align: center; */
+    font-size: 15px;
+    
+    clip-path: polygon(0% 0%, 80% 0, 100% 100%, 100% 100%, 0% 100%);
+    
+}
+
+.main-content .btn:hover{
+    transition: 0.5s;
+    background-color: transparent;
+    border: 2px solid goldenrod;
+    color: white;
+}
+.image-right{
+    position: relative;
+    margin-right: 12%;
+    width: 70%;
+    /* top: 40%; */
+    
+
+}
+.image-right img{
+    position: relative;
+    height: 400px;
+    width: 100%;
+    top: 20%;
+}
+.square{
+    position: absolute;
+    width: 70%;
+    height: 300px;
+    /* background-image:var(--gray-gradient); */
+    box-shadow:0 4px 4px  rgb(14 55 54 / 15%);
+    margin-left: 43%;
+    top: 25%;
+}
+.cube{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    background: goldenrod;
+    margin-left: 90%;
+    top: 60%;
+    transform: rotateY(36eg) rotateY(-135deg);
+}
+.cube::before{
+    content: '';
+    width: 30px;
+    position: absolute;
+    height: 20px;
+    display: inline-block;
+    background: goldenrod;
+    top: -20px;
+    left: 8px;
+    transform: skewX(-40deg);
+}
+.cube::after{
+    content: '';
+    width: 16px;
+    position: absolute;
+    height: 30px;
+    display: inline-block;
+    background: goldenrod;
+    top: -10px;
+    left: 100%;
+    transform: skewY(-50deg);
+}
+
+.about{
+    display:flex;
+    height:300px;
+    width:100%;
+    background:#01072b;
+}
+.about-section{
+    padding: 4% 15%;
+
+}
+.about-section h2{
+    font-size: 30px;
+    color: white;
+    font-weight: 500;
+   
+
+}
+.about-section p{
+    text-align: justify;
+    color: wheat;
+}
+.section{
+    /* position: relative; */
+    background: var(--gray-gradient),url("./img/565555.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+}
+.cards{
+    /* border: 3px solid yellow; */
+    height: 400px;
+    text-transform: uppercase;
+    color: goldenrod;
+    /* text-align:flex-start; */
+    padding-left:15%;
+    padding-top: 10px;
+    font-size: 25px;
+    
+}
+.games-cards{
+    /* border: 3px solid green; */
+    height: 500px;
+    display: flex;
+    padding: 2% 0;
+    /* padding-right: 10%; */
+    width: 30%;
+    height: 5px;
+}
+.games-cards img{
+    height: 150px;
+    border-radius: 5px;
+    width: 40%;
+    margin-left: 10px;
+    transition: 0.5s;
+}
+.games-cards img:hover{
+    transform: translateY(-10px);
+    
+}
+.gaming-section{
+    /* border: 3px solid blue; */
+    height: 500px;
+}
+.categories{
+    padding: 10% 0;
+    padding: right 4%;
+    /* position: absolute; */
+}
+.categories h5{
+    padding:40px 0;
+}
+.gaming{
+    display:flex;
+    /* height: 50px; */
+    padding-right: 25%;
+    /* padding-top:10%; */
+}
+.gaming img{
+    height: 150px;
+    /* padding-left:15%; */
+    border-radius: 5px;
+    width: 15%;
+    margin-left:10px;
+    transition:0.5s;
+    
+}
+.gaming img:hover{
+    transform: translateY(-10px);
+
+
+}
+
+.games-images{
+    /* height: 50px; */
+    /* width: 20%; */
+    padding-left:9%; ;
+    display: flex;
+}
+.games-images img{
+    height: 150px;
+    margin-top: 20px;
+    border-radius: 5px;
+    width: 13%;
+    margin-left: 10px;
+    transition:0.5s;
+}
+.games-images img:hover{
+    transform: translateY(-10px);
+
+}
+.tournament{
+    display: flex;
+    padding: 0 7%;
+    text-align: center;
+    align-items: center;
+    /* justify-content: space-between; */
+    background: url("./img/blue-flaming-fire-background-toj7ntsno7pa9e3a.jpg");
+    background-position: center;
+    background-size:cover;
+    height: 300px;
+    width: 100%;
+
+}
+.tournament-section{
+    color: white;
+    text-transform: capitalize;
+    font-size: 30px;
+    /* padding: 10% 50px; */
+}
+.tournament1 img{
+    margin-left: 10px;
+    width: 100%;
+    height: 200px;
+}
+.tournament1 h4{
+    font-size: 20px;
+    color: goldenrod;
+}
+.tournament1 p{
+    color: goldenrod;
+}
+.tournament h6{
+    font-size: 30px;
+    color: goldenrod;
+}

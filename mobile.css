@@ -1,0 +1,22 @@
+
+
+@media screen and (max-width:700px) {
+
+  .tournament{
+    flex-direction: column;
+  }
+  .categories{
+    padding: 25% 0;
+    position: absolute;
+
+  }
+  .games-cards{
+
+    width: 40%;
+
+  } 
+  .cards{
+    padding-left: 5%;
+  } 
+    
+}
