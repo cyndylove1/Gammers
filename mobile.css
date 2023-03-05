@@ -9,7 +9,7 @@
    }
    .main{
     /* height:650px; */
-    padding: 0 5%;
+    padding: 0 6%;
    }
    .main-content{
     /* text-align: left; */
@@ -36,19 +36,7 @@
     color: goldenrod;
   }
 .main-content .btn{
-    padding: 15px 28px;
     margin-top: 10px;
-    background-color: goldenrod;
-    /* border: none; */
-    border-bottom-left-radius: 30px;
-    border-top-left-radius: 30px;
-    text-decoration: none;
-    color: #000;
-    font-weight: 600;
-    /* text-align: center; */
-    font-size: 15px;
-    
-    clip-path: polygon(0% 0%, 80% 0, 100% 100%, 100% 100%, 0% 100%);
     
   }
   .about{
