@@ -5,13 +5,16 @@
     display: none;
    }
    .container{
-    height:650px
-    /* padding-right: 20px; */
-    margin-right: 20px;
+    height: 600px;
+   }
+   .main{
+    /* height:650px; */
+    padding: 0 9%;
    }
    .main-content{
     /* text-align: left; */
-    padding: 20% 6%;
+    padding: 20% 5%;
+    padding-left: 0%;
     width: 100%;
   }
 .main-content h2{
@@ -34,6 +37,7 @@
   }
 .main-content .btn{
     padding: 15px 28px;
+    margin-top: 10px;
     background-color: goldenrod;
     /* border: none; */
     border-bottom-left-radius: 30px;
@@ -80,12 +84,12 @@
     /* padding-left:15%; */
     border-radius: 5px;
     width: 25%;
-    margin-left:10px;
+    margin-left:7px;
     transition:0.5s
 
   }
 .games-cards{
-  padding-right: 15px;
+  padding-right: 18px;
 }
   .games-cards img{
     height: 80px;
@@ -100,10 +104,14 @@
     transition:0.5s;
   }
   .tournament{
-    height: 1900px;
+    height: 1800px;
+  }
+  .tournament-section h5{
+    padding-top: 40px;
   }
   .tournament1 img{
-    height: 350px;
+    height: 300px;
+    padding-top: 30px;
     padding-right: 25px;
   }
   .tournament h6{
