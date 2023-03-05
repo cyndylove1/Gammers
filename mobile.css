@@ -20,7 +20,7 @@
 .main-content h2{
   /* padding-right: 20px; */
     color: white;
-    font-size: 80px;
+    font-size: 75px;
     font-weight: 600;
   }
 .main-content p{
@@ -40,19 +40,23 @@
     
   }
   .about{
-    height: 400px;
+    height: 450px;
     text-align: center;
     text-align: justify;
   }
   .about-section{
     padding: 4% 6%;
+    width: 750%;
+  }
+  .about-img img{
+    display: none;
   }
   .about p{
     text-align-last: justify;
   }
 
-  .tournament{
-    flex-direction: column;
+  .section{
+    height: 500px;
   }
   .categories{
     padding: 25% 0;
@@ -60,8 +64,7 @@
 
   }
   .games-cards{
-
-    width: 40%;
+   width: 40%;
 
   } 
   .cards{
@@ -73,12 +76,18 @@
     border-radius: 5px;
     width: 25%;
     margin-left:7px;
-    transition:0.5s
+    transition:0.5s;
 
   }
-.games-cards{
-  padding-right: 18px;
-}
+  .gaming img:hover{
+    transform: none;
+  }
+  .games-images img:hover{
+    transform: none;
+  }
+  .games-cards{
+    padding-right: 18px;
+  }
   .games-cards img{
     height: 80px;
     width: 50%;
@@ -92,6 +101,7 @@
     transition:0.5s;
   }
   .tournament{
+    flex-direction: column;
     height: 1800px;
   }
   .tournament-section h5{
@@ -105,5 +115,25 @@
   .tournament h6{
     padding: 50px 0;
   }
+  .tournament1 img:hover{
+    transform: none;
+  }
+
+}
+@media screen  and ( max-width:811px){
+  .container{
+    height: 650px;
+    width: 100%;
+  }
+  .about{
+    height: 500px;
+  }
+  .categories{
+    padding: 20% 0;
+    position: absolute;
+
+  }
+
+  
 }
 
