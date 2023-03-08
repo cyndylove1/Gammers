@@ -45,6 +45,16 @@
     margin-top: 10px;
     
   }
+  .zone-content i{
+    font-size: 40px;
+    color: goldenrod;
+    
+}
+.zone-content span{
+    font-size: 30px;
+    color: goldenrod;
+}
+
   .about{
     height: 650px;
     padding: 2% 8%;
@@ -63,6 +73,7 @@
   }
   .about-content p{
     width: 200%;
+    font-size: 18px;
     /* padding-right: 20px; */
     text-align-last: justify;
    
