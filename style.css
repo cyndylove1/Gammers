@@ -7,7 +7,7 @@
 
 body{
 
-    height: 3000px;
+    height: 3500px;
 }
 header{
     /* border: 3px solid red; */
@@ -91,6 +91,10 @@ header{
     font-weight: 600;
 
 }
+.play-icon span:hover{
+    color: white;
+    transition: 0.5s;
+}
 
 .main{
     /* height: 550px; */
@@ -116,6 +120,7 @@ header{
 }
 .main-content .btn{
     padding: 15px 28px;
+    border: 2px solid black;
     background-color: goldenrod;
     /* border: none; */
     border-bottom-left-radius: 30px;
@@ -199,8 +204,10 @@ header{
 
 }
 .zone-content{
-    padding: 20px 0;
+    /* padding: 20px 0; */
     display: flex;
+    height: 50px;
+    width: 20%;
 }
 .zone-content i{
     font-size: 50px;
@@ -523,4 +530,159 @@ header{
 .tournament h6{
     font-size: 30px;
     color: goldenrod;
+}
+.contact-section{
+    padding: 4% 12%;
+    display: flex;
+    height: 500px;
+    width: 100%;
+    background-color: #01072b;
+
+}
+.contact-content{
+    width: 100%;
+    padding-top: 10px;
+}
+.contact-content img{
+    height: 350px;
+    
+    width: 80%;
+    border-radius: 10px;
+}
+.contact-right form{
+    width: 100%;
+    /* height: 40px; */
+    /* padding: 30px 0; */
+}
+
+form input, form textarea{
+    width: 100%;
+    /* height: 40px; */
+    padding: 20px 0;
+    border-radius: 10px;
+    padding-right: 70px;
+    font-family: 700;
+    font-size: 15px;
+    /* border: 3px solid goldenrod; */
+    margin: 10px 0;
+    color: black;
+    outline: none;
+    /* background-color: transparent; */
+}
+.btn{
+    padding: 10px 20px;
+    border: 2px solid black;
+    background-color: goldenrod;
+    border-radius: 5px;
+    color: #000;
+    border: none;
+    font-weight: 600;
+}
+.btn:hover{
+    color: white;
+    border: 2px solid goldenrod;
+    background: transparent;
+    /* transition: 0.5s; */
+}
+.footer-text{
+    padding: 4% 12%;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    background-color: #16011f;
+}
+.footer-content{
+    display: flex;
+    height: 70px;
+    width: 23%;
+    background-color: goldenrod;
+    clip-path: polygon(0 0, 100% 0%, 100% 0, 80% 100%, 0 100%);
+    /* clip-path: polygon(0% 0%, 80% 0, 100% 100%, 100% 100%, 0% 100%); */
+    /* margin-left: 20px; */
+}
+.footer-content i{
+    color: black;
+    font-size: 30px;
+}
+.footer-content span{
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+    /* width: 30%; */
+}
+.links{
+    /* color: goldenrod; */
+    font-size: 20px;
+    /* padding-bottom: 10px; */
+    margin: 0 70px;
+}
+.links h5{
+    color: goldenrod;
+    padding-bottom: 10px;
+
+}
+.links-content li{
+    list-style: none;
+    color: white;
+    line-height: 1.4;
+
+}
+.links-content li:hover{
+    color: goldenrod;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+.action{
+    font-size: 20px;
+    margin: 0 70px;
+}
+.action h5{
+    color: goldenrod;
+    padding-bottom: 10px;
+}
+.action-content li{
+    color: white;
+    list-style: none;
+    line-height: 1.4;
+    
+}
+.action-content li:hover{
+    color: goldenrod;
+    text-decoration: underline;
+}
+.getintouch{
+    font-size: 20px;
+    margin: 0 40px;
+}
+.getintouch h5{
+    color: goldenrod;
+    padding-bottom: 10px;
+}
+.icons li{
+    list-style: none;
+}
+.icons i{
+    color: goldenrod;
+    margin: 0 10px;
+    /* margin-bottom: 10px; */
+}
+.icons li a{
+    text-decoration: none;
+    color: white;
+    line-height: 1.4;
+}
+.icons li a:hover{
+    color: goldenrod;
+    transition: 0.5s;
+    text-decoration: underline;
+}
+.developer a{
+  text-decoration: none; 
+  color: white;
+  padding-left: 6px;
+}
+.developer a:hover{
+    text-decoration: underline;
+    color: goldenrod;
+
 }
