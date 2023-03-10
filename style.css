@@ -20,7 +20,7 @@ header{
     background-position:center;
     background-size:cover;
     width: 100%;
-    height: 650px;
+    height: 550px;
     /* display: flex; */
 }
 .nav-desktop{
@@ -107,7 +107,7 @@ header{
     
 }
 .main-content{
-    padding: 10% 12%;
+    padding: 15% 12%;
     width: 100%;
 }
 .main-content h2{
@@ -159,6 +159,10 @@ header{
     height: 400px;
     width: 100%;
     top: 14%;
+}
+.image-right img:hover{
+    transform: translateX(-10px);
+    transition: 0.5s;
 }
 .square{
     position: absolute;
@@ -523,7 +527,7 @@ header{
     height: 200px;
 }
 .tournament1 img:hover{
-    transform: translateX(-10px);
+    transform: translateY(-10px);
     transition: 0.5s;
 }
 .tournament1 h4{
