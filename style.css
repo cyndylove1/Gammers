@@ -231,6 +231,7 @@ header{
 
 .about{
     /* border: 3px solid red; */
+    height: 450px;
     display:flex;
     padding: 4% 12%;
     width: 100%;
@@ -255,7 +256,7 @@ header{
 }
 .about-section  h2{
     font-size: 30px;
-    font-weight: 600px;
+    font-weight: 600;
     padding:20px 0;
     /* text-align:center; */
     color: goldenrod;
@@ -596,10 +597,10 @@ form input, form textarea{
 }
 .footer-text{
     padding: 4% 12%;
-    height: 300px;
+    height: 250px;
     width: 100%;
     display: flex;
-    background-color: #16011f;
+    background-color:rgb(54, 4, 54);
 }
 .footer-content{
     display: flex;
@@ -622,19 +623,22 @@ form input, form textarea{
 }
 .links{
     /* color: goldenrod; */
-    font-size: 20px;
+    /* font-size: 20px; */
     /* padding-bottom: 10px; */
     margin: 0 70px;
 }
 .links h5{
     color: goldenrod;
+    font-size: 15px;
+    text-transform: uppercase;
     padding-bottom: 10px;
 
 }
 .links-content li{
     list-style: none;
+    font-size: 15px;
     color: white;
-    line-height: 1.4;
+    line-height: 1.7;
 
 }
 .links-content li a{
@@ -647,17 +651,20 @@ form input, form textarea{
     transition: 0.5s;
 }
 .action{
-    font-size: 20px;
+    /* font-size: 20px; */
     margin: 0 70px;
 }
 .action h5{
     color: goldenrod;
+    font-size: 15px;
+    text-transform: uppercase;
     padding-bottom: 10px;
 }
 .action-content li{
     color: white;
+    font-size: 15px;
     list-style: none;
-    line-height: 1.4;
+    line-height: 1.7;
     
 }
 .action-content li:hover{
@@ -665,41 +672,75 @@ form input, form textarea{
     text-decoration: underline;
 }
 .getintouch{
-    font-size: 20px;
-    margin: 0 20px;
+    /* font-size: 20px; */
+    margin: 0 10px;
 }
 .getintouch h5{
+    font-size: 15px;
+    padding-left: 10px;
     color: goldenrod;
+    text-transform: uppercase;
     padding-bottom: 10px;
 }
-.icons li{
-    list-style: none;
+.icons {
+    line-height: 1.7;
 }
 .icons i{
     color: goldenrod;
     margin: 0 10px;
+    
     /* margin-bottom: 10px; */
 }
-.icons i:hover{
+.icons span{
     color: white;
 }
-.icons li a{
+.developer {
+  height: 200px;
+  width: 100%;
+  background-color: #16011f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.developer-section{
+    margin-left: 60px;
+}
+.developer-section ul {
+    display: flex;
+    padding-bottom: 10px;
+    list-style: none;
+    
+
+}
+.developer-section ul li{
     text-decoration: none;
-    color: white;
-    line-height: 1.4;
+    margin-left: 20px;
 }
-.icons li a:hover{
+.developer-section i{
+    border: 2px solid white;
+    border-radius: 100%;
+    padding: 5px 5px;
+    color: goldenrod;
+    
+}
+.btn-dev{
+    padding: 10px 10px;
+    background-color: transparent;
+    color: goldenrod;
+    font-weight: 600;
+    margin: 10px 0;
+
+}
+.btn-dev a{
+    color: goldenrod;
+    text-decoration: none;
+}
+.btn-dev:hover{
+    background: white;
     color: goldenrod;
     transition: 0.5s;
-    text-decoration: underline;
 }
-.developer a{
-  text-decoration: none; 
-  color: white;
-  padding-left: 6px;
-}
-.developer a:hover{
-    text-decoration: underline;
-    color: goldenrod;
-
+.copy{
+    color: white;
+    font-weight: 500;
 }
