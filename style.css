@@ -112,8 +112,9 @@ header{
 }
 .main-content h2{
     color: white;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 600;
+    padding-bottom: 10px;
 }
 .main-content p{
     color: white;
@@ -206,9 +207,10 @@ header{
 }
 .zone{
     background: #16011f;
-    height: 100px;
+    height: 150px;
     width: 100%;
     display: flex;
+    padding: 25px 0;
     justify-content: center;
 
 }
@@ -219,12 +221,12 @@ header{
     width: 20%;
 }
 .zone-content i{
-    font-size: 50px;
+    font-size: 40px;
     color: goldenrod;
     
 }
 .zone-content span{
-    font-size: 40px;
+    font-size: 35px;
     color: goldenrod;
 }
 
@@ -244,6 +246,8 @@ header{
     font-size: 20px;
     color: white;
     width: 100%;
+    text-align: justify;
+    line-height: 1.4;
     
 }
 .about-section{
@@ -514,6 +518,9 @@ header{
     width: 100%;
 
 }
+.tournament-section{
+    margin: 0 30px;
+}
 .tournament-section h5{
     display: flex;
     text-align: center;
@@ -714,12 +721,12 @@ form input, form textarea{
 }
 .developer-section ul li{
     text-decoration: none;
-    margin-left: 20px;
+    margin-left: 15px;
 }
 .developer-section i{
     border: 2px solid white;
     border-radius: 100%;
-    padding: 5px 5px;
+    padding: 6px 7px;
     color: goldenrod;
     
 }
@@ -729,6 +736,7 @@ form input, form textarea{
     color: goldenrod;
     font-weight: 600;
     margin: 10px 0;
+    /* margin-left: 5px; */
 
 }
 .btn-dev a{
