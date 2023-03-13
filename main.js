@@ -12,4 +12,4 @@
  sr.reveal('.main-content,.image-right',{delay:350, origin:'top'})
 
  
- sr.reveal('.game-zone,.about,.section,.sections,.tournament,.contact,.footer,.developer', {delay:350, origin:'bottom'})
+ sr.reveal('.game-zone,.about,.section,.sections,.tournament,.contact,.footer,.developer,.popular-content', {delay:350, origin:'bottom'})
