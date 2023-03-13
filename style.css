@@ -96,6 +96,10 @@ header{
     font-weight: 600;
 
 }
+.play-icon a{
+    color: black;
+    text-decoration: none;
+}
 .play-icon span:hover{
     color: white;
     transition: 0.5s;
@@ -132,7 +136,7 @@ header{
     border-bottom-left-radius: 30px;
     border-top-left-radius: 30px;
     text-decoration: none;
-    color: #000;
+    color: white;
     font-weight: 600;
     /* text-align: center; */
     font-size: 15px;
@@ -147,6 +151,14 @@ header{
     border: 2px solid goldenrod;
     color: white;
 }
+.main-content .btn a{
+    color: white;
+    text-decoration: none;
+}
+.main-content .btn a:hover{
+    color: white;
+}
+
 .image-right{
     position: relative;
     margin-right: 12%;
@@ -205,6 +217,96 @@ header{
     left: 100%;
     transform: skewY(-50deg);
 }
+
+.popular{
+    height: 950px;
+    width: 100%;
+    background-color: #16011f;
+}
+
+
+
+
+.popular-game{
+    text-align: center;
+    color: white;
+    padding-top: 10%;
+    font-size: 20px;
+}
+.populars{
+    display: grid;
+    grid-gap: 1rem;
+    padding: 2% 12%;
+    grid-template-columns: repeat(3,1fr);
+}
+.popular-content{
+    /* border: 3px solid red; */
+    width: 100%;
+    /* height: 200px; */
+    border-radius: 10px;
+    background-color: whitesmoke;
+    
+}
+.popular-content img{
+    width: 100%;
+    height: 230px;
+    border-radius: 10px;
+    padding-bottom: 10%;
+    
+    
+}
+.popular-content h6{
+    padding-left: 20px;
+    font-size: 15px;
+}
+.loading{
+    /* background-color: whitesmoke; */
+    height: 10px;
+    width: 90%;
+    background-color: rgba(0,0,0,0.199);
+    border-radius: 25px;
+    margin: 0 20px;
+    margin-top: 5px;
+    position: relative;
+}
+.loading span{
+    width: 80%;
+    height: 100%;
+    border-radius: 25px;
+    position: absolute;
+    background-color: rgb(87, 1, 87);
+}
+.pricing{
+    display: flex;
+    justify-content: space-between;
+    margin:10px 0;
+    /* border-top: 1px solid #16011f; */
+}
+.pricing-content h5{
+    padding-left: 20px;
+}
+.pricing-content h6{
+    color: rgb(87, 1, 87);
+}
+.play-btn{
+    padding: 5px 5px;
+    background-color: transparent;
+    margin-right: 20px;
+    /* color: white; */
+   
+}
+.play-btn a{
+    color:rgb(87, 1, 87);
+    font-weight: 700;
+    text-decoration: none;
+}
+.play-btn:hover{
+    color: black;
+    transform:scale(1.1);
+    transition: 1s;
+}
+
+
 .zone{
     background: #16011f;
     height: 150px;

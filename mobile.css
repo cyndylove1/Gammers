@@ -50,6 +50,20 @@
     }
   /* hero section ends here */
 
+  .populars{
+    display: grid;
+    grid-gap: 1rem;
+    flex-direction: column;
+    padding: 2% 5%;
+    grid-template-columns: repeat(1,1fr);
+  }
+  .popular{
+    height: 2200px;
+  }
+  .play-btn:hover{
+    transform:none;
+}
+
 
 /* second-section begin here */
 
