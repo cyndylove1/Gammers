@@ -11,7 +11,7 @@
 
 body{
 
-    height: 3500px;
+    height: 3000px;
 }
 header{
     /* border: 3px solid red; */
@@ -812,7 +812,7 @@ form input, form textarea{
   align-items: center;
 }
 .developer-section{
-    margin-left: 80px;
+    margin-left: 90px;
 
 }
 .developer-section ul {
