@@ -812,7 +812,8 @@ form input, form textarea{
   align-items: center;
 }
 .developer-section{
-    margin-left: 60px;
+    margin-left: 80px;
+
 }
 .developer-section ul {
     display: flex;
