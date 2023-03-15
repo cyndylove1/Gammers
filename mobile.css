@@ -183,7 +183,7 @@
 
   .gamings{
     /* border: 3px solid green; */
-    position: absolute;
+    /* position: absolute; */
     grid-template-columns: repeat(3, 1fr);
     width:92%;
     grid-gap:0.2rem;
