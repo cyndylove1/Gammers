@@ -1,6 +1,20 @@
 
 
 
+var pagebody=document.querySelector(".pagebody")
+
+var hamburger=document.querySelector(".hamburger-container")
+  
+function addandremove(){
+   hamburger.classList.toggle('showburger')
+}
+var mobilecontainer=document.querySelector(".mobile-container")
+
+function addandremove(){
+   hamburger.classList.toggle('showburger')
+   mobilecontainer.classList.toggle('showmobilelinks')
+}
+
 
 
  const sr = ScrollReveal ({
