@@ -26,7 +26,7 @@ header{
 .nav-mobile{
     display: none;
     justify-content: space-between;
-    padding: 10px 20px;
+    padding: 13px 20px;
     align-items: center;
     background-color: #16011f;
    
@@ -43,7 +43,7 @@ header{
     color: #fff; */
 }
 .logo1{
-    background: goldenrod;
+    /* background: goldenrod; */
     padding: 0px 10px;
     width: 100%;
     display: flex;
@@ -55,12 +55,12 @@ header{
 
 
 .logo1 i{
-    color: black;
+    color: white;
     font-size: 30px;
 
 }
 .logo1 span{
-    color: black;
+    color: white;
     font-size: 25px;
 }
 .hamburger-container{
@@ -68,31 +68,32 @@ header{
     height: 30px;
     display: flex;
     right: 30px;
-    
+    position: fixed;
+    border-radius: 50%;
     align-self: center;
     z-index: 100;
 }
 .menu{
     width: 100%;
-    height: 5px;
-    background-color: white;
+    height: 3px;
+    background-color: rgb(87, 1, 87);
     position: relative;
     
 }
 .menu::before{
     content: '';
     width: 100%;
-    height: 5px;
+    height: 3px;
     position: absolute;
-    background-color: white;
+    background-color: rgb(87, 1, 87);
     transform: translateY(-10px);
 }
 .menu::after{
     content: '';
     width: 100%;
-    height: 5px;
+    height: 3px;
     position: absolute;
-    background-color: white;
+    background-color: rgb(87, 1, 87);
     transform: translateY(10px);
 }
 .showburger .menu{
@@ -100,16 +101,16 @@ header{
 }
 .showburger .menu::before{
     transform:rotate(45deg);
-    background-color: white;
+    background-color: rgb(87, 1, 87);
 }
 .showburger .menu::after{
     transform:rotate(-45deg);
-    background-color: white;
+    background-color: rgb(87, 1, 87);
 }
 .mobile-container{
     transform: translateX(102%);
     width: 50%;
-    height: 50%;
+    height: 70%;
     text-align: center;
     position: fixed;
     right: 0;
@@ -128,13 +129,21 @@ header{
 
 }
 .mobile-links{
+    /* background-color:red; */
+    
     top:30%;
 }
 .mobile-links a{
+    display: block;
     text-decoration: none;
-    padding: 10px 20px;
+    padding: 20px 20px;
     color: white;
     font-size: 20px;
+    transition: 0.5s;
+}
+.mobile-links a:hover{
+    background-color: white;
+    color: rgb(87, 1, 87);
 }
 .mobile-links .active{
     background-color: white;
