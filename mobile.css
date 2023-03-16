@@ -79,8 +79,11 @@
     padding: 2% 5%;
     grid-template-columns: repeat(1,1fr);
   }
+  .popular-game h2{
+    padding-top: 17%;
+  }
   .popular{
-    height: 2200px;
+    height: 2300px;
   }
   .play-btn:hover{
     transform:none;
