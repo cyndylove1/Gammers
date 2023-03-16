@@ -74,7 +74,7 @@ header{
     height: 30px;
     display: flex;
     right: 30px;
-    position: absolute;
+    position: fixed;
     /* border-radius: 50%; */
     /* background-color: white; */
     align-self: center;
