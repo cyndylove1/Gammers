@@ -6,7 +6,9 @@
   }
   .nav-mobile{
     display: flex;
-    /* position: fixed; */
+    position: fixed;
+    z-index: 1;
+    width: 100%;
   }
   .nav-desktop{
     display: none;
@@ -38,11 +40,11 @@
    /* hero section begins here */
   .main{
     /* height:650px; */
-    padding: 0% 4%;
+    padding: 3% 4%;
   }
   .main-content{
     /* text-align: left; */
-    padding: 6% 0%;
+    padding: 17% 0%;
     /* padding-left: 0%; */
     width: 100%;
   }
