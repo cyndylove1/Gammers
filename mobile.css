@@ -20,12 +20,12 @@
 
 
   .logo1 i{
-    font-size: 25px;
+    font-size: 35px;
 
   }
   .logo1 span{
     font-size: 25px;
-    font-weight: 600;
+    /* font-weight: 600; */
   }
   .section{
     display: none;
@@ -38,7 +38,7 @@
    /* hero section begins here */
   .main{
     /* height:650px; */
-    padding: 0 6%;
+    padding: 5% 6%;
   }
   .main-content{
     /* text-align: left; */

@@ -21,12 +21,15 @@ header{
     background-size:cover;
     width: 100%;
     height: 550px;
+    /* position: relative; */
     /* display: flex; */
 }
 .nav-mobile{
+    position: fixed;
     display: none;
+    width: 100%;
     justify-content: space-between;
-    padding: 13px 20px;
+    padding: 13px 10px;
     align-items: center;
     background-color: #16011f;
    
@@ -60,7 +63,7 @@ header{
 
 }
 .logo1 span{
-    color: goldenrod;
+    color: white;
     font-size: 25px;
 }
 .hamburger-container{
@@ -69,7 +72,7 @@ header{
     height: 30px;
     display: flex;
     right: 30px;
-    position: fixed;
+    position: absolute;
     /* border-radius: 50%; */
     /* background-color: white; */
     align-self: center;
@@ -78,7 +81,7 @@ header{
 .menu{
     width: 100%;
     height: 3px;
-    background-color: goldenrod;
+    background-color: white;
     position: relative;
     
 }
@@ -87,7 +90,7 @@ header{
     width: 100%;
     height: 3px;
     position: absolute;
-    background-color: goldenrod;
+    background-color: white;
     transform: translateY(-10px);
 }
 .menu::after{
@@ -95,7 +98,7 @@ header{
     width: 100%;
     height: 3px;
     position: absolute;
-    background-color: goldenrod;
+    background-color: white;
     transform: translateY(10px);
 }
 .showburger .menu{
@@ -103,11 +106,11 @@ header{
 }
 .showburger .menu::before{
     transform:rotate(45deg);
-    background-color: goldenrod;
+    background-color: white;
 }
 .showburger .menu::after{
     transform:rotate(-45deg);
-    background-color: goldenrod;
+    background-color: white;
 }
 .mobile-container{
     transform: translateX(102%);
