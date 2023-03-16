@@ -299,7 +299,7 @@
 
   @media screen and (max-width:940px){
   .about{
-    border: 3px solid red;
+    /* border: 3px solid red; */
     height: 580px;
   }
 }

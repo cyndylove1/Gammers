@@ -127,6 +127,9 @@ header{
     transform: translateX(0);
 
 }
+.mobile-links{
+    top:30%;
+}
 .mobile-links a{
     text-decoration: none;
     padding: 10px 20px;
