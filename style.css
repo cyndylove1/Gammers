@@ -13,6 +13,8 @@ body{
     scroll-behavior: smooth;
     height: 1300px;
 }
+/*--nav-section starts here*/
+
 header{
     /* border: 3px solid red; */
     background: var(--gradient),url("./img/wp6591848-gaming-purple-aesthetic-wallpapers.jpg");
@@ -213,6 +215,8 @@ header{
     color: goldenrod;
     transition: 0.5s;
 }
+
+
 .play-icon{
     clip-path: polygon(26% 0, 100% 0%, 100% 100%, 25% 100%, 3% 100%); 
     /* clip-path: polygon(0 0, 100% 0%, 99% 0, 80% 100%, 0 100%);  */
@@ -221,9 +225,6 @@ header{
     height: 60px;
     width: 20%;
     /* padding-right: 50px; */
-    
-    
-
 }
 .play-icon span{
     font-size: 20px;
@@ -239,6 +240,10 @@ header{
     color: white;
     transition: 0.5s;
 }
+/*--nav-section ends here*/
+
+
+/*--hero-section starts here*/
 
 .main{
     /* height: 550px; */
@@ -352,16 +357,16 @@ header{
     left: 100%;
     transform: skewY(-50deg);
 }
+/*--hero-section ends here*/
+
+
+/*--rakuto-section starts here*/
 
 .popular{
     height: 950px;
     width: 100%;
     background-color: #16011f;
 }
-
-
-
-
 .popular-game{
     text-align: center;
     color: white;
@@ -441,7 +446,9 @@ header{
     transition: 1s;
 }
 
+/*--rakuto-section ends here*/
 
+/*--second-section starts here*/
 .zone{
     background: #16011f;
     height: 150px;
@@ -466,8 +473,10 @@ header{
     font-size: 35px;
     color: goldenrod;
 }
+/*--about-section ends here*/
 
 
+/*--about-section starts here*/
 .about{
     /* border: 3px solid red; */
     height: 450px;
@@ -489,11 +498,7 @@ header{
 }
 .about-section{
     /* border: 3px solid white; */
-    width: 100%;
-   
-   
-    
-   
+    width: 100%;  
 }
 .about-section  h2{
     font-size: 30px;
@@ -503,8 +508,6 @@ header{
     color: goldenrod;
     text-transform: uppercase;
     font-weight: 500;
-   
-
 }
 
 .about-section p{
@@ -525,6 +528,12 @@ header{
     
     width: 80%;
 }
+
+/*--about-section ends here*/
+
+
+/*--Games-section starts here*/
+
 .section{
     /* position: relative; */
     background: var(--gray-gradient),url("./img/565555.jpg");
@@ -553,16 +562,9 @@ header{
     display: grid;
     grid-gap: 10px;
     grid-template-columns: repeat(8, 1fr);
-    
-    /* padding: 2% 0; */
-    /* padding-right: 10%; */
     width: 80%;
-    /* height: 5px; */
 }
 .games-cards img{
-    
-   
-    
     height: 150px;
     border-radius: 5px;
     width: 100%;
@@ -572,10 +574,6 @@ header{
 .games-cards img:hover{
     transform: translateY(-10px);
     
-}
-.gaming-section{
-    /* border: 3px solid blue; */
-    /* height: 500px; */
 }
 .categories{
     padding: 2% 0;
@@ -591,9 +589,6 @@ header{
     grid-gap: 10px;
     width: 60%;
     grid-template-columns: repeat(5, 1fr);
-    /* height: 50px; */
-    /* padding-right: 25%; */
-    /* padding-top:10%; */
 }
 .gaming img{
     height: 150px;
@@ -635,7 +630,7 @@ header{
 
 .sections{
     display: none;
-    /* position: relative; */
+
     background: var(--gray-gradient),url("./img/565555.jpg");
     background-position: center;
     background-size: cover;
@@ -643,13 +638,8 @@ header{
     width: 100%;
 }
 .card{
-    /* border: 3px solid yellow; */
-    /* height: 400px; */
     text-transform: uppercase;
     color: goldenrod;
-    /* text-align:flex-start; */
-    /* padding-left:15%; */
-    /* padding-top: 10px; */
     font-size: 25px;
     
 }
@@ -657,21 +647,13 @@ header{
     padding: 20px 0;
 }
 .games-card{
-    /* border: 3px solid green; */
-    /* height: 500px; */
     display: grid;
     grid-gap: 10px;
     grid-template-columns: repeat(8, 1fr);
-    
-    /* padding: 2% 0; */
-    /* padding-right: 10%; */
     width: 80%;
-    /* height: 5px; */
+    /* padding: 2% 0; */
 }
 .games-card img{
-    
-   
-    
     height: 150px;
     border-radius: 5px;
     width: 100%;
@@ -698,8 +680,6 @@ header{
     width: 60%;
     grid-template-columns: repeat(5, 1fr);
     /* height: 50px; */
-    /* padding-right: 25%; */
-    /* padding-top:10%; */
 }
 .gamings img{
     height: 150px;
@@ -712,8 +692,6 @@ header{
 }
 .gamings img:hover{
     transform: translateY(-10px);
-
-
 }
 
 .games-image{
@@ -735,6 +713,10 @@ header{
     transform: translateY(-10px);
 
 }
+/*--Games-section ends here*/
+
+/*--tournament-section starts here*/
+
 .tournament{
     display: flex;
     padding: 0 15%;
@@ -780,6 +762,10 @@ header{
     font-size: 30px;
     color: goldenrod;
 }
+/*--tournament-section starts here*/
+
+/*--contact-section starts here*/
+
 .contact-section{
     padding: 4% 12%;
     display: flex;
@@ -833,6 +819,11 @@ form input, form textarea{
     background: transparent;
     /* transition: 0.5s; */
 }
+
+/*--contact-section ends here*/
+
+/*--footer-section starts here*/
+
 .footer-text{
     padding: 4% 12%;
     height: 350px;
@@ -984,3 +975,4 @@ form input, form textarea{
     color: white;
     font-weight: 500;
 }
+/*--footer-section ends here*/
