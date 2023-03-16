@@ -31,7 +31,7 @@
     display: none;
   }
   header{
-    height: 700px;
+    height: 650px;
   }
 
 
@@ -42,8 +42,8 @@
   }
   .main-content{
     /* text-align: left; */
-    padding: 19% 3%;
-    padding-left: 0%;
+    padding: 10% 3%;
+    /* padding-left: 0%; */
     width: 100%;
   }
   .main-content h2{

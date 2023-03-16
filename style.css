@@ -70,7 +70,7 @@ header{
 .hamburger-container{
     /* border:2px solid rgb(87, 1, 87); */
     width: 30px;
-    top: 4%;
+    top:30px;
     height: 30px;
     display: flex;
     right: 30px;
