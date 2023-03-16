@@ -25,13 +25,13 @@ header{
     /* display: flex; */
 }
 .nav-mobile{
-    position: fixed;
+    /* position: fixed; */
     display: none;
     width: 100%;
     justify-content: space-between;
     padding: 13px 10px;
     align-items: center;
-    background-color: #16011f;
+    background-color: goldenrod;
    
 }
 .nav-brand{
@@ -58,7 +58,7 @@ header{
 
 
 .logo1 i{
-    color: goldenrod;
+    color: rgb(87, 1, 87);
     font-size: 30px;
 
 }
@@ -120,7 +120,7 @@ header{
     position: fixed;
     right: 0;
     top:0;
-    background-color: rgb(87, 1, 87);
+    background-color: goldenrod;
     z-index:3;
     transition: all 0.3s ease;
 }
@@ -147,11 +147,11 @@ header{
     transition: 0.5s;
 }
 .mobile-links a:hover{
-    background-color: #16011f;
+    background-color: rgb(87, 1, 87);
     color: white;
 }
 .mobile-links .active{
-    background-color: #16011f;
+    background-color: rgb(87, 1, 87);
     color: white;
 }
 
