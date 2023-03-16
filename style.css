@@ -116,7 +116,7 @@ header{
 }
 .mobile-container{
     transform: translateX(102%);
-    width: 60%;
+    width: 80%;
     height: 70%;
     text-align: center;
     position: fixed;
@@ -124,7 +124,7 @@ header{
     top:0;
     background-color: goldenrod;
     z-index:3;
-    transition: all 0.3s ease;
+    transition: all 0.5s ease;
 }
 .mobile-links ul{
     list-style: none;
