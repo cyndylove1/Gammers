@@ -38,11 +38,11 @@
    /* hero section begins here */
   .main{
     /* height:650px; */
-    padding: 2% 6%;
+    padding: 2% 3%;
   }
   .main-content{
     /* text-align: left; */
-    padding: 10% 3%;
+    padding: 10% 2%;
     /* padding-left: 0%; */
     width: 100%;
   }
@@ -116,7 +116,7 @@
 
   .about{
     /* height: 500px; */
-    padding: 0% 8%;
+    padding: 0% 5%;
     height: 600px;
   }
   .about-section{
@@ -251,7 +251,7 @@
 
   .footer-text{
     flex-direction: column;
-    padding: 0 7%;
+    padding: 0 3%;
     /* margin-right: 10%; */
     height: 700px;
   }
