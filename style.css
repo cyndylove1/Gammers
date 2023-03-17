@@ -163,6 +163,7 @@ header{
 .nav-desktop{
     display: flex;
     position: fixed;
+    z-index: 1;
     background-color: rgba(0, 0, 0, 0.698);
     /* margin-left: 10%; */
     /* justify-content: space-between; */
