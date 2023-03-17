@@ -100,7 +100,7 @@
 
 .zone{
   height: 150px;
-  padding: 30px 6%;
+  padding: 30px 5%;
 
   }
   .zone-content i{
@@ -262,7 +262,7 @@
     display: flex;
     /* margin-right: 20px; */
     height: 60px;
-    width: 35%;
+    width: 65%;
     /* width: 20%; */
     margin-top: 30px;
     margin-left: 25%;
@@ -297,5 +297,56 @@
 }
 
   /* footer-section ends here */
+@media screen and (max-width:1029px){
+  .footer-content{
+    display: flex;
+    /* margin-right: 20px; */
+    height: 60px;
+    width: 35%;
+    /* width: 20%; */
+    margin-top: 30px;
+    margin-left: 25%;
+    justify-content: center;
+    
+  }
+  .footer-content i{
+    color: black;
+    font-size: 30px;
+  }
+  .footer-content span{
+    color: black;
+    font-size: 28px;
+    font-weight: 600;
+    /* width: 30%; */
+  }
+  
 
+  
+}
+@media screen and (max-width:525px){
+  .footer-content{
+    display: flex;
+    /* margin-right: 20px; */
+    height: 60px;
+    width: 52%;
+    /* width: 20%; */
+    margin-top: 30px;
+    margin-left: 25%;
+    justify-content: center;
+    
+  }
+  .footer-content i{
+    color: black;
+    font-size: 30px;
+  }
+  .footer-content span{
+    color: black;
+    font-size: 28px;
+    font-weight: 600;
+    /* width: 30%; */
+  }
+  
+
+  
+}
   
