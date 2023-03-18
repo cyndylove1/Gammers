@@ -161,7 +161,7 @@
   }
   .sections{
     display: flex;
-    height: 1500px;
+    height: 2100px;
     width: 100%;
     display: block;
     /* flex-direction: column; */
@@ -175,7 +175,7 @@
   .games-card{
     /* padding-right: 10%; */
     width:100%;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(2,1fr);
    
 
   } 
@@ -191,7 +191,7 @@
 
   .gamings{
     width: 100%;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   
   }
   
@@ -199,7 +199,7 @@
   
   .games-image{
     width: 100%;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(2,1fr);
     
   }
   /* games-section ends here */
