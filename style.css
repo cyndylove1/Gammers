@@ -72,15 +72,17 @@ header{
 .hamburger-container{
     /* border:2px solid rgb(87, 1, 87); */
     width: 30px;
-    top:30px;
+    top:15px;
     height: 30px;
     display: flex;
     right: 30px;
     position: fixed;
-    /* border-radius: 50%; */
+    border-radius: 50%;
+    overflow: hidden;
     /* background-color: white; */
-    align-self: center;
+    align-items: center;
     z-index: 3000;
+    
 }
 .menu{
     width: 100%;
