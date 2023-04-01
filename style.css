@@ -71,51 +71,72 @@ header{
 }
 .hamburger-container{
     /* border:2px solid rgb(87, 1, 87); */
-    width: 30px;
+    width: 3.43rem;
+    height: 3.43rem;
     top:16px;
     height: 30px;
     display: flex;
     right: 30px;
-    position: fixed;
+    /* position: fixed; */
     border-radius: 50%;
-    overflow: hidden;
-    /* background-color: white; */
+    /* overflow: hidden; */
+    /* background-color: purple; */
     align-items: center;
-    z-index: 3000;
+    z-index: 6;
     
 }
+.hamburger-container:hover .menu::before,
+.hamburger-container:hover .menu::after{
+    transition: transform 0.3s ease;
+}
+.hamburger-container:hover .menu::before{
+    transform: translateY(-0.62rem);
+
+}
+.hamburger-container:hover .menu::after{
+    transform: translateY(0.62rem);
+
+}
 .menu{
-    width: 100%;
-    height: 3px;
+    width: 60%;
+    height: 0.18rem;
+    display: flex;
+    justify-content: center;
     background-color: white;
     position: relative;
+    transition: transform 0.4s ease;
     
 }
 .menu::before{
     content: '';
-    width: 100%;
-    height: 3px;
+    width: 80%;
+    height: 0.18rem;
     position: absolute;
     background-color: white;
     transform: translateY(-10px);
 }
 .menu::after{
     content: '';
-    width: 100%;
-    height: 3px;
+    width: 80%;
+    height: 0.18rem;
     position: absolute;
     background-color: white;
     transform: translateY(10px);
 }
+.showburger{
+    /* background-color: black; */
+}
 .showburger .menu{
     background-color: transparent;
+    transform: rotate(180deg);
 }
 .showburger .menu::before{
-    transform:rotate(45deg);
+    transform: translateY(0px)  rotate(45deg) !important;
     background-color: goldenrod;
 }
 .showburger .menu::after{
-    transform:rotate(-45deg);
+    transform: translateY(0px)  rotate(-45deg) !important;
+    /* transform:rotate(-45deg); */
     background-color: goldenrod;
 }
 .mobile-container{
