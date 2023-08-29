@@ -23,7 +23,7 @@ function addandremove(){
     reset: true
 
  })
- sr.reveal('.main-content,.image-right',{delay:350, origin:'top'})
+ sr.reveal('.container',{delay:350, origin:'top'})
 
  
  sr.reveal('.zone-content,.about-section,.about-text,.about-img,.games-cards,.card h5,.categories,.games-card,.categorie,.tournament1,.contact-content,.contact-right,.footer-content,.links,.action,.getintouch,.developer-section,.popular-content,.copy', {delay:350, origin:'bottom'})

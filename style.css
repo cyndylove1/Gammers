@@ -324,7 +324,7 @@ header{
 }
 
 .image-right{
-    position: relative;
+    /* position: relative; */
     margin-right: 12%;
     width: 70%;
     /* top: 40%; */
